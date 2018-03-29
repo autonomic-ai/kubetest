@@ -1,6 +1,9 @@
 package: github.com/garethr/kubetest
 import:
 - package: github.com/google/skylark
+  repo: https://github.com/google/skylark
+  version: 25f3813368b0c3c0a1ca3b7fd1dab0e876f35dac
+  vcs: git
 - package: github.com/garethr/skyhook
   repo: https://github.com/autonomic-ai/skyhook
   version: master

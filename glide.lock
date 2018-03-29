@@ -1,16 +1,18 @@
-hash: 5c8ef3816937bd836bad4747da91a852881fcef5771c650b70280486beb4e326
-updated: 2018-03-29T08:20:49.483914-04:00
+hash: dba544c6da53b31f6416ed5891f02e834d5de02d1f9523f0578575150cc63679
+updated: 2018-03-29T09:46:30.876001-04:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: 4da3e2cfbabc9f751898f250b49f2439785783a1
 - name: github.com/garethr/skyhook
   version: f2b1ebbdb9a158d183fa833d8847f09313aaba1f
-  repo: git@github.com:autonomic-ai/skyhook.git
+  repo: https://github.com/autonomic-ai/skyhook
   vcs: git
   subpackages:
   - convert
 - name: github.com/google/skylark
   version: 25f3813368b0c3c0a1ca3b7fd1dab0e876f35dac
+  repo: https://github.com/google/skylark
+  vcs: git
   subpackages:
   - resolve
   - syntax
