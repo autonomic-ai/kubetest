@@ -1,10 +1,12 @@
-hash: 716fb45c9580dd597a42affeafe93a4df7546e77709bd2c9366e5289f1675cdb
-updated: 2017-11-13T17:01:11.7346927Z
+hash: 5c8ef3816937bd836bad4747da91a852881fcef5771c650b70280486beb4e326
+updated: 2018-03-29T08:20:49.483914-04:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: 4da3e2cfbabc9f751898f250b49f2439785783a1
 - name: github.com/garethr/skyhook
-  version: 2eca010bcbbc6c21942c2d2f2cda7fc3e7caa0d7
+  version: f2b1ebbdb9a158d183fa833d8847f09313aaba1f
+  repo: git@github.com:autonomic-ai/skyhook.git
+  vcs: git
   subpackages:
   - convert
 - name: github.com/google/skylark
@@ -32,7 +34,7 @@ imports:
 - name: github.com/pelletier/go-toml
   version: 1d6b12b7cb290426e27e6b4e38b89fcda3aeef03
 - name: github.com/sirupsen/logrus
-  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
 - name: github.com/spf13/afero
   version: ee1bd8ee15a1306d1f9201acc41ef39cd9f99a1b
   subpackages:
