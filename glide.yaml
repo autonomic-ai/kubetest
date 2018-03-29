@@ -2,7 +2,7 @@ package: github.com/garethr/kubetest
 import:
 - package: github.com/google/skylark
 - package: github.com/garethr/skyhook
-  repo: git@github.com:autonomic-ai/skyhook.git
+  repo: https://github.com/autonomic-ai/skyhook
   version: master
   vcs: git
 - package: github.com/sirupsen/logrus
